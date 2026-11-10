@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sandling"
-version = "0.1.0"
+version = "0.1.1"
 description = "Safe, disposable Git workspaces with fewer abandoned clones."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -15,6 +15,11 @@ classifiers = [
   "Programming Language :: Python :: 3 :: Only",
   "Operating System :: POSIX",
 ]
+
+[project.urls]
+Homepage = "https://github.com/camilla007/sandling"
+Source = "https://github.com/camilla007/sandling"
+Issues = "https://github.com/camilla007/sandling/issues"
 
 [project.scripts]
 sandling = "sandling.cli:main"
