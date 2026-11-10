@@ -1,0 +1,18 @@
+name: Bug report
+description: Report an unexpected Sandling behavior
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Sandling version
+    validations:
+      required: true

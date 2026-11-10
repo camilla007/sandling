@@ -1,0 +1,18 @@
+# Local development virtual environment
+/bin/
+/include/
+/lib/
+/lib64
+/pyvenv.cfg
+
+# Python and tooling output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local Sandling state and configuration
+.sandling.json
